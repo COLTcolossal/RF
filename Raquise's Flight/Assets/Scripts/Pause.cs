@@ -16,6 +16,7 @@ public class Pause : MonoBehaviour
     public AudioSource pauseBGmusic;
     public GameObject pausedFirst, settingsFirst, backPausedFirst;
     public GameObject deadscreen;
+    public GameObject countDown;
 
     void Start()
     {
@@ -94,7 +95,7 @@ public class Pause : MonoBehaviour
 
     public void PauseGame()
     {
-       if (deadscreen.activeInHierarchy == false)
+       if ((deadscreen.activeInHierarchy == false) && (countDown.activeInHierarchy == false))
         {
 
 
