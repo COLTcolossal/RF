@@ -11,6 +11,8 @@ public class SpawnManager : MonoBehaviour
     public GameObject GatCurse;
 
     public GameObject Gatlens;
+
+    
    // public GameObject bGmusic;
 
 
@@ -21,12 +23,18 @@ public class SpawnManager : MonoBehaviour
         SG.SetActive(false);
         BP.SetActive(false);
         GatCurse.SetActive(false);
+        Gatlens.SetActive(false);
 
         StartCoroutine(MGpwr());
         StartCoroutine(CNpwr());
         StartCoroutine(SGpwr());
         StartCoroutine(BPpwr());
+        
+        StartCoroutine(Gatlen());
         StartCoroutine(GatlenCurse());
+        
+        //StartCoroutine(GatlenCurse2());
+       // StartCoroutine(GatlenCurse3());
 
     }
 
@@ -68,9 +76,17 @@ public class SpawnManager : MonoBehaviour
     private IEnumerator GatlenCurse()
     {
 
-        yield return new WaitForSeconds(120);
+        yield return new WaitForSeconds(4);
         GatCurse.SetActive(true);
     }
 
+   
+
+    private IEnumerator Gatlen()
+    {
+
+        yield return new WaitForSeconds(2);
+        Gatlens.SetActive(true);
+    }
 
 }

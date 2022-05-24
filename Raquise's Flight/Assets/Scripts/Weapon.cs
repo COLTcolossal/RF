@@ -9,13 +9,14 @@ public class Weapon : MonoBehaviour
     private float fireRate = 0.3f;
     private float nextFire = 0f;
     public GameObject paused;
+    public GameObject Counts;
     public GameObject settings;
     public ParticleSystem muzzleFlash;
 
     void Update()
     {
 
-        if (paused.activeInHierarchy == false)
+        if ((paused.activeInHierarchy == false) && (Counts.activeInHierarchy == false))
         {
             if (settings.activeInHierarchy == false)
             {

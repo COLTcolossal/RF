@@ -198,6 +198,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 50
   gatXplodefx: {fileID: 6774997047608489456, guid: 27ff90ee6a598a74b89084578867026a, type: 3}
-  floatStrength: 1
-  Speed: 5
-  time: 0.3
+  rotateSpeed: 300
+  speedx: 0

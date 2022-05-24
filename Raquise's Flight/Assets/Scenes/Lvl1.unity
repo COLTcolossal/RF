@@ -439,7 +439,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 154436469}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6c6274e3ccd82546a8c131123c83b09, type: 3}
+  m_Script: {fileID: 11500000, guid: a66b72923a80221488f820bda50b3fd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   obstacle: {fileID: 7208544230055436049, guid: c8eeb0af595e4714f82e5fcd79e9a2fa, type: 3}
@@ -447,7 +447,7 @@ MonoBehaviour:
   minX: 0
   maxY: 2
   minY: -2
-  timeBetweenSpawn: 1
+  timeBetweenSpawn: 4
 --- !u!1 &171279677
 GameObject:
   m_ObjectHideFlags: 0
@@ -18374,6 +18374,10 @@ PrefabInstance:
       propertyPath: hearts.Array.data[2]
       value: 
       objectReference: {fileID: 1785035798}
+    - target: {fileID: 2829603204312001945, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+      propertyPath: Counts
+      value: 
+      objectReference: {fileID: 443742614}
     - target: {fileID: 2829603204312001945, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
       propertyPath: paused
       value: 
