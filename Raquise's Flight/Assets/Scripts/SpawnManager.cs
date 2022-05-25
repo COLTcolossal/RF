@@ -33,8 +33,9 @@ public class SpawnManager : MonoBehaviour
         StartCoroutine(Gatlen());
         StartCoroutine(GatlenCurse());
         
+
         //StartCoroutine(GatlenCurse2());
-       // StartCoroutine(GatlenCurse3());
+        // StartCoroutine(GatlenCurse3());
 
     }
 
@@ -76,8 +77,9 @@ public class SpawnManager : MonoBehaviour
     private IEnumerator GatlenCurse()
     {
 
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(45);
         GatCurse.SetActive(true);
+        StartCoroutine(GatlenCurse1());
     }
 
    
@@ -87,6 +89,38 @@ public class SpawnManager : MonoBehaviour
 
         yield return new WaitForSeconds(2);
         Gatlens.SetActive(true);
+    }
+
+    private IEnumerator GatlenCurse1()
+    {
+        yield return new WaitForSeconds(35);
+        CurseSpawn.timeBetweenSpawn = 3f;
+        StartCoroutine(GatlenCurse2());
+
+    }
+
+    private IEnumerator GatlenCurse2()
+    {
+        yield return new WaitForSeconds(30);
+        CurseSpawn.timeBetweenSpawn = 2f;
+        StartCoroutine(GatlenCurse3());
+
+    }
+
+    private IEnumerator GatlenCurse3()
+    {
+        yield return new WaitForSeconds(25);
+        CurseSpawn.timeBetweenSpawn = 1f;
+        StartCoroutine(GatlenCurse4());
+
+    }
+
+    private IEnumerator GatlenCurse4()
+    {
+        yield return new WaitForSeconds(20);
+        CurseSpawn.timeBetweenSpawn = 0.5f;
+
+
     }
 
 }

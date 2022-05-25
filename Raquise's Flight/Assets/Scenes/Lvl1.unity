@@ -447,7 +447,6 @@ MonoBehaviour:
   minX: 0
   maxY: 2
   minY: -2
-  timeBetweenSpawn: 4
 --- !u!1 &171279677
 GameObject:
   m_ObjectHideFlags: 0
@@ -18461,6 +18460,50 @@ PrefabInstance:
     - target: {fileID: 5252476031526473370, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
       propertyPath: playOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385427550408709524, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 48c70037ec3b2e048b7c5d6e3fac00f6, type: 2}
+    - target: {fileID: 6385427550408709524, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385427550408709524, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385427550408709524, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385427550408709524, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5137306058700761953, guid: 48c70037ec3b2e048b7c5d6e3fac00f6, type: 2}
+    - target: {fileID: 6385427550408709524, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385427550408709524, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+      propertyPath: m_overrideHtmlColors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385427550408709524, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+      propertyPath: m_enableVertexGradient
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487192980512454364, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487192980512454364, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5137306058700761953, guid: 48c70037ec3b2e048b7c5d6e3fac00f6, type: 2}
+    - target: {fileID: 8904026433665105993, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}

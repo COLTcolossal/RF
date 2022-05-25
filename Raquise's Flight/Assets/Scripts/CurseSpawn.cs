@@ -9,12 +9,12 @@ public class CurseSpawn : MonoBehaviour
     public float minX;
     public float maxY;
     public float minY;
-    private float timeBetweenSpawn = 4f;
+    public static float timeBetweenSpawn = 4f;
     private float spawnTime;
 
     void Start()
     {
-        StartCoroutine(GatlenCurse1());
+
         
         
     }
@@ -30,34 +30,7 @@ public class CurseSpawn : MonoBehaviour
         Instantiate(obstacle, transform.position + new Vector3(randomX, randomY, 0), transform.rotation);
     }
 
-    private IEnumerator GatlenCurse1()
-    {
-        yield return new WaitForSeconds(10);
-        StartCoroutine(GatlenCurse2());
-        
-       
-        
-        
-    }
-
-    private IEnumerator GatlenCurse2()
-    {
-        Debug.Log("one");
-        yield return new WaitForSeconds(15);
-        StartCoroutine(GatlenCurse3());
-        
-        
-        
-        
-    }
-
-    private IEnumerator GatlenCurse3()
-    {
-        Debug.Log("two");
-        yield return new WaitForSeconds(20);
-        
-        
-    }
+   
 
     void Update()
     {
