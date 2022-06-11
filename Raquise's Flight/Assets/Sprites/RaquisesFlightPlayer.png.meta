@@ -48,6 +48,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -304,6 +305,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      RaquisesFlightPlayer_2: 5147151536374761144
+      RaquisesFlightPlayer_3: 8086617949294850578
+      RaquisesFlightPlayer_4: 6285068961871493960
+      RaquisesFlightPlayer_6: 8575136377848653456
+      RaquisesFlightPlayer_1: -3468349228926062047
+      RaquisesFlightPlayer_0: 4490995305386235900
+      RaquisesFlightPlayer_5: -4090211483664757233
+      RaquisesFlightPlayer_7: -2444952075485626695
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -220,6 +221,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Shotgun Plaque_2: -5170073245547155839
+      Shotgun Plaque_0: -8145547026136547753
+      Shotgun Plaque_3: -7089350422577562169
+      Shotgun Plaque_4: 6655269527997726902
+      Shotgun Plaque_1: 4207633332037486314
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

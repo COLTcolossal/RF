@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -220,6 +221,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Machine gun plaque (1)_0: -7548166325843670897
+      Machine gun plaque (1)_3: 8562029601179821796
+      Machine gun plaque (1)_1: -9170568218285624190
+      Machine gun plaque (1)_4: -6509334130950029188
+      Machine gun plaque (1)_2: -408553828190465020
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

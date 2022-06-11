@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -328,6 +329,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      CrossNecklaceRF_8: -6109793786597235844
+      CrossNecklaceRF_7: -1503415906318858350
+      CrossNecklaceRF_3: -8141143462380957340
+      CrossNecklaceRF_1: -922598911642594063
+      CrossNecklaceRF_5: 3225803192500826186
+      CrossNecklaceRF_4: 4817510672199336260
+      CrossNecklaceRF_6: -3990294351551826757
+      CrossNecklaceRF_2: -5627093637340495688
+      CrossNecklaceRF_0: 2774022605192031532
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
