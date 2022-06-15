@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Heart : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Heart : MonoBehaviour
     private bool invincibleEnabled = false;
     public float invincCooldown = 10f;
     public GameObject explosionEffect;
+    public TextMeshPro counts;
 
     //public float durationMG = 30f;
     //public float durationSG = 30f;
@@ -110,12 +112,24 @@ public class Heart : MonoBehaviour
     public void InvincEnabled()
     {
         invincibleEnabled = true;
+
         StartCoroutine(InvincDisableRoutine());
     }
 
     IEnumerator InvincDisableRoutine()
     {
-        yield return new WaitForSeconds(invincCooldown);
+       
+
+
+        while (invincCooldown > 0)
+        {
+            counts.text = invincCooldown.ToString();
+
+            yield return new WaitForSecondsRealtime(1);
+
+            invincCooldown--;
+        }
+
 
         for (int a = 0; a < transform.childCount; a++)
         {
@@ -125,6 +139,12 @@ public class Heart : MonoBehaviour
         open = false;
 
         invincibleEnabled = false;
+
+        if(invincCooldown == 0)
+        {
+            CNacc.transform.GetChild(5).gameObject.SetActive(false);
+        }
+
     }
 
 
@@ -171,6 +191,8 @@ public class Heart : MonoBehaviour
         if (collision.tag == "CrossNecklace")
         {
             InvincEnabled();
+
+            CNacc.transform.GetChild(5).gameObject.SetActive(true);
 
             for (int a = 0; a < transform.childCount; a++)
             {
