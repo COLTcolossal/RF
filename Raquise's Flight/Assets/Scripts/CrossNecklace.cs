@@ -6,7 +6,7 @@ public class CrossNecklace : MonoBehaviour
 {
     public GameObject pickupFX;
     public float time = 0.3f;
-    public Rigidbody rb;
+    //public Rigidbody rb;
     public float Speed;
 
     void FixedUpdate()

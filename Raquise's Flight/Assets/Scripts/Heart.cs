@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+
 
 public class Heart : MonoBehaviour
 {
@@ -11,11 +11,12 @@ public class Heart : MonoBehaviour
     private bool invincibleEnabled = false;
     public float invincCooldown = 10f;
     public GameObject explosionEffect;
-    public TextMeshPro counts;
+    
 
     //public float durationMG = 30f;
     //public float durationSG = 30f;
     public GameObject player;
+    public GameObject Hp;
     public int damage = 1;
     public bool open = false;
     public SpriteRenderer sprite;
@@ -45,17 +46,20 @@ public class Heart : MonoBehaviour
             if (health < 1)
             {
                 Destroy(hearts[0].gameObject);
+                Hp.transform.GetChild(2).gameObject.SetActive(true);
                 Die();
             }
 
             else if (health < 2)
             {
                 Destroy(hearts[1].gameObject);
+                Hp.transform.GetChild(3).gameObject.SetActive(true);
             }
 
             else if (health < 3)
             {
                 Destroy(hearts[2].gameObject);
+                Hp.transform.GetChild(4).gameObject.SetActive(true);
             }
 
             if (dead == true)
@@ -118,18 +122,7 @@ public class Heart : MonoBehaviour
 
     IEnumerator InvincDisableRoutine()
     {
-       
-
-
-        while (invincCooldown > 0)
-        {
-            counts.text = invincCooldown.ToString();
-
-            yield return new WaitForSecondsRealtime(1);
-
-            invincCooldown--;
-        }
-
+        yield return new WaitForSecondsRealtime(invincCooldown);
 
         for (int a = 0; a < transform.childCount; a++)
         {
@@ -139,11 +132,6 @@ public class Heart : MonoBehaviour
         open = false;
 
         invincibleEnabled = false;
-
-        if(invincCooldown == 0)
-        {
-            CNacc.transform.GetChild(5).gameObject.SetActive(false);
-        }
 
     }
 
@@ -192,10 +180,11 @@ public class Heart : MonoBehaviour
         {
             InvincEnabled();
 
-            CNacc.transform.GetChild(5).gameObject.SetActive(true);
+            
 
             for (int a = 0; a < transform.childCount; a++)
             {
+
                 CNacc.transform.GetChild(3).gameObject.SetActive(true);
                 SoundManager.PlaySound("powerUp");
             }

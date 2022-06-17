@@ -21,7 +21,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.628
+    value: 0
   size:
     overrideState: 1
     value: 0.61
@@ -43,7 +43,7 @@ MonoBehaviour:
   active: 1
   enabled:
     overrideState: 1
-    value: 1
+    value: 0
   intensity:
     overrideState: 1
     value: 0.33
@@ -52,7 +52,7 @@ MonoBehaviour:
     value: 1
   softKnee:
     overrideState: 1
-    value: 0.625
+    value: 0.764
   clamp:
     overrideState: 1
     value: 65402.21
@@ -64,7 +64,7 @@ MonoBehaviour:
     value: 0.03
   color:
     overrideState: 1
-    value: {r: 1, g: 1, b: 1, a: 1}
+    value: {r: 0.24056602, g: 1, b: 0.97746146, a: 1}
   fastMode:
     overrideState: 0
     value: 0
@@ -104,10 +104,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40b924e2dad56384a8df2a1e111bb675, type: 3}
   m_Name: Vignette
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
-    value: 1
+    value: 0
   mode:
     overrideState: 1
     value: 0
@@ -151,13 +151,13 @@ MonoBehaviour:
   active: 0
   enabled:
     overrideState: 1
-    value: 1
+    value: 0
   intensity:
     overrideState: 1
-    value: 7
+    value: -100
   intensityX:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 0.235
   intensityY:
     overrideState: 0
     value: 1

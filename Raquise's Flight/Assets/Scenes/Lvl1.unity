@@ -2414,7 +2414,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &452565423
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2455,7 +2455,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6097909001882859615, guid: 50b04391116aac0419f3e74987c24bba, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 190d5285d2d87184ab97e840b8ca4e23, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10496,7 +10496,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1421444311
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10537,7 +10537,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6097909001882859615, guid: 50b04391116aac0419f3e74987c24bba, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 190d5285d2d87184ab97e840b8ca4e23, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10664,6 +10664,7 @@ GameObject:
   - component: {fileID: 1450280748}
   - component: {fileID: 1450280750}
   - component: {fileID: 1450280749}
+  - component: {fileID: 1450280751}
   m_Layer: 5
   m_Name: Heart2
   m_TagString: Untagged
@@ -10711,7 +10712,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2045130074689060501, guid: 50b04391116aac0419f3e74987c24bba, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d34b1fb2b83162488e2570c9b5f1ec7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10729,6 +10730,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450280747}
   m_CullTransparentMesh: 1
+--- !u!111 &1450280751
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450280747}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 38ecfaed10710594dbc5318c284f1b2b, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 38ecfaed10710594dbc5318c284f1b2b, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1462784628
 GameObject:
   m_ObjectHideFlags: 0
@@ -10830,7 +10847,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1465373746
 Transform:
   m_ObjectHideFlags: 0
@@ -10891,7 +10908,7 @@ ParticleSystemRenderer:
   m_RenderMode: 0
   m_MeshDistribution: 0
   m_SortMode: 0
-  m_MinParticleSize: 0.03
+  m_MinParticleSize: 0
   m_MaxParticleSize: 3
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
@@ -11752,7 +11769,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 1
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -15999,7 +16016,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -16050,7 +16067,7 @@ MonoBehaviour:
     m_Bits: 2147483647
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
-  antialiasingMode: 0
+  antialiasingMode: 2
   temporalAntialiasing:
     jitterSpread: 0.75
     sharpness: 0.25
@@ -16883,6 +16900,7 @@ GameObject:
   - component: {fileID: 1735693605}
   - component: {fileID: 1735693607}
   - component: {fileID: 1735693606}
+  - component: {fileID: 1735693608}
   m_Layer: 5
   m_Name: Heart1
   m_TagString: Untagged
@@ -16930,7 +16948,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2045130074689060501, guid: 50b04391116aac0419f3e74987c24bba, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d34b1fb2b83162488e2570c9b5f1ec7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16948,6 +16966,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735693604}
   m_CullTransparentMesh: 1
+--- !u!111 &1735693608
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735693604}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 38ecfaed10710594dbc5318c284f1b2b, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 38ecfaed10710594dbc5318c284f1b2b, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1771202337
 GameObject:
   m_ObjectHideFlags: 0
@@ -17169,6 +17203,7 @@ GameObject:
   - component: {fileID: 1785035799}
   - component: {fileID: 1785035801}
   - component: {fileID: 1785035800}
+  - component: {fileID: 1785035802}
   m_Layer: 5
   m_Name: Heart3
   m_TagString: Untagged
@@ -17216,7 +17251,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2045130074689060501, guid: 50b04391116aac0419f3e74987c24bba, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d34b1fb2b83162488e2570c9b5f1ec7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17234,6 +17269,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785035798}
   m_CullTransparentMesh: 1
+--- !u!111 &1785035802
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785035798}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 38ecfaed10710594dbc5318c284f1b2b, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 38ecfaed10710594dbc5318c284f1b2b, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1811580934
 GameObject:
   m_ObjectHideFlags: 0
@@ -18219,7 +18270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2042006534
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18260,7 +18311,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6097909001882859615, guid: 50b04391116aac0419f3e74987c24bba, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 190d5285d2d87184ab97e840b8ca4e23, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18281,6 +18332,11 @@ CanvasRenderer:
 --- !u!212 &2048864908 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 7721196924543158417, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+  m_PrefabInstance: {fileID: 7721196925063390947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2065630635 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2829603204312001948, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
   m_PrefabInstance: {fileID: 7721196925063390947}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2074488408
@@ -18437,6 +18493,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2829603204312001951, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
   m_PrefabInstance: {fileID: 7721196925063390947}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5504514399168039813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065630635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494f05ceeeb11554497d7da7d2639132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invincCooldown: 10
+  counts: {fileID: 274321026}
+  Player: {fileID: 2065630635}
 --- !u!1001 &7721196925063390947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18456,6 +18527,10 @@ PrefabInstance:
       propertyPath: muzzleFlash
       value: 
       objectReference: {fileID: 1295871215}
+    - target: {fileID: 2829603204312001891, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
+      propertyPath: Hp
+      value: 
+      objectReference: {fileID: 1366725944}
     - target: {fileID: 2829603204312001891, guid: 35cbb3271aef41d4fbd44921e54794b6, type: 3}
       propertyPath: blink
       value: 0.1
